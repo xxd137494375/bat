@@ -1,21 +1,21 @@
 package two.two_12_paixu3;
 
 /**
- * @Author £ºxingxiangdong
+ * @Author ï¼šxingxiangdong
  * @Date :2019/5/813:31
  */
 public class two_15_Merge {
     /*
-        ÓÐÐòÊý×éºÏ²¢Á·Ï°
+        æœ‰åºæ•°ç»„åˆå¹¶ç»ƒä¹ 
 
-        ÓÐÁ½¸ö´ÓÐ¡µ½´óÅÅÐòÒÔºóµÄÊý×éAºÍB£¬ÆäÖÐAµÄÄ©¶ËÓÐ×ã¹»µÄ»º³å¿ÕÈÝÄÉB¡£Çë±àÐ´Ò»¸ö·½·¨£¬½«BºÏ²¢ÈëA²¢ÅÅÐò¡£
-        ¸ø¶¨Á½¸öÓÐÐòintÊý×éAºÍB£¬AÖÐµÄ»º³å¿ÕÓÃ0Ìî³ä£¬Í¬Ê±¸ø¶¨AºÍBµÄÕæÊµ´óÐ¡int nºÍint m£¬Çë·µ»ØºÏ²¢ºóµÄÊý×é¡£
+        æœ‰ä¸¤ä¸ªä»Žå°åˆ°å¤§æŽ’åºä»¥åŽçš„æ•°ç»„Aå’ŒBï¼Œå…¶ä¸­Açš„æœ«ç«¯æœ‰è¶³å¤Ÿçš„ç¼“å†²ç©ºå®¹çº³Bã€‚è¯·ç¼–å†™ä¸€ä¸ªæ–¹æ³•ï¼Œå°†Båˆå¹¶å…¥Aå¹¶æŽ’åºã€‚
+        ç»™å®šä¸¤ä¸ªæœ‰åºintæ•°ç»„Aå’ŒBï¼ŒAä¸­çš„ç¼“å†²ç©ºç”¨0å¡«å……ï¼ŒåŒæ—¶ç»™å®šAå’ŒBçš„çœŸå®žå¤§å°int nå’Œint mï¼Œè¯·è¿”å›žåˆå¹¶åŽçš„æ•°ç»„ã€‚
      */
 
     /**
      * very easy
      *
-     * ×¢Òâµã£ºÖ»ÒªB·ÅÍêÁË ¾Í¿ÉÒÔ½áÊøÁË
+     * æ³¨æ„ç‚¹ï¼šåªè¦Bæ”¾å®Œäº† å°±å¯ä»¥ç»“æŸäº†
      * @param A
      * @param B
      * @param n
@@ -32,7 +32,7 @@ public class two_15_Merge {
             else A[index--]=B[j--];
         }
 //        while(i>=0){
-//            A[index--]=A[i--];  ÒòÎª×îºóÊÇ·Åµ½AÖÐËùÒÔ×îºó²»ÓÃÔÙ×öÕâÒ»²½
+//            A[index--]=A[i--];  å› ä¸ºæœ€åŽæ˜¯æ”¾åˆ°Aä¸­æ‰€ä»¥æœ€åŽä¸ç”¨å†åšè¿™ä¸€æ­¥
 //        }
         while(j>=0){
             A[index--]=B[j--];
@@ -40,20 +40,48 @@ public class two_15_Merge {
         return A;
     }
 
-
     /**
-     * ´ð°¸£ºÊ¡ÂÔ3¸ö±äÁ¿
+     * ä¼˜åŒ–ä¸Šé¢çš„æ–¹æ³•
+     * @param A
+     * @param B
+     * @param n
+     * @param m
+     * @return
+     */
+    public int[] mergeAB2(int[] A, int[] B, int n, int m) {
+        // write code here
+        while(m>0&&n>0){
+            if(A[n-1]>=B[m-1])A[m+n-1]=A[--n];   //A[--n];   ç­‰ä»·äºŽ   A[n-1]; n--;
+            else A[m+n-1]=B[--m];
+        }
+        while(m>0){
+            A[m+n-1]=B[--m];
+        }
+        return A;
+    }
+    /**
+     * ç­”æ¡ˆï¼šçœç•¥3ä¸ªå˜é‡ ï¼šä¸ç”¨å˜é‡å°±è¦æƒ³åˆ°ç”¨å…¥å‚æ¥åšæ•°ç»„çš„ä¸‹æ ‡
      */
     public int[] mergeAB1(int[] A, int[] B, int n, int m) {
         while (m != 0) {
             if (n == 0) {
-                A[m - 1] = B[m - 1];
+                A[m +n - 1] = B[m - 1];
                 m--;
             } else {
                 A[m + n - 1] = A[n - 1] > B[m - 1] ? A[--n] : B[--m];
-                //Í¨Ë×Ò»µã   A[m+n-1]=A[n-1]>B[m-1]?A[n-1]:B[m-1];  n--; m--
+                //é€šä¿—ä¸€ç‚¹   A[m+n-1]=A[n-1]>B[m-1]?A[n-1]:B[m-1];  n--; m--
             }
         }
         return A;
+    }
+
+    public static void main(String[] args) {
+        int[] A = {1,3,7,0,0,0};
+        int[] B ={2,4,6};
+        two_15_Merge r = new two_15_Merge();
+        int[] ints = r.mergeAB(A,B,3,3);
+        for(int num : ints){
+            System.out.println(num);
+        }
     }
 }

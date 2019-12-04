@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f9fc0f4-b966-4834-be87-44f203addce4" name="Default Changelist" comment="" />
+    <list default="true" id="8f9fc0f4-b966-4834-be87-44f203addce4" name="Default Changelist" comment="双栈队列">
+      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/four/stackandqueue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/two/two_16_paixu4/two_17_sortThreeColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/two/two_16_paixu4/two_19_Subsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/two/two_16_paixu4/two_20_Gap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/two/two_1_paixu1/two_2_BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/two/two_1_paixu1/two_3_selectSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/two/two_1_paixu1/two_4_insertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/two/two_1_paixu1/two_5_mergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/two/two_1_paixu1/two_6_QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/two/two_1_paixu1/two_8_shellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/two/two_9_paixu2/two_11_radixSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/two/zongjie" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/three/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/three/StringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/three/string1" beforeDir="false" afterPath="$PROJECT_DIR$/src/three/string1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/two/two_12_paixu3/two_13_ScaleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/two/two_12_paixu3/two_13_ScaleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/two/two_12_paixu3/two_14_Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/two/two_12_paixu3/two_14_Checker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/two/two_12_paixu3/two_15_Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/two/two_12_paixu3/two_15_Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/two/two_1_paixu1/two_7_HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/two/two_1_paixu1/two_7_HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/two/two_9_paixu2/two_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/two/two_9_paixu2/two_10_countingSort.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,52 +31,104 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-376784524">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="14" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.163" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.27" value="4" />
+          <entry key="project.open.time.28" value="2" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.30" value="3" />
+          <entry key="project.open.time.58" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="5" />
+          <entry key="java" value="75" />
+          <entry key="stackandqueue" value="2" />
+          <entry key="string1" value="3" />
+          <entry key="zongjie" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="75" />
+          <entry key="PLAIN_TEXT" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1159" />
+          <entry key="dummy" value="21" />
+          <entry key="java" value="12340" />
+          <entry key="stackandqueue" value="140" />
+          <entry key="string1" value="694" />
+          <entry key="txt" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1159" />
+          <entry key="JAVA" value="12340" />
+          <entry key="PLAIN_TEXT" value="921" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/two/two_12_paixu3/two_13_ScaleSort.java">
+        <entry file="file://$PROJECT_DIR$/src/four/stackandqueue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+            <state relative-caret-position="247">
+              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/two/two_12_paixu3/two_14_Checker.java">
+        <entry file="file://$PROJECT_DIR$/src/two/zongjie">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/four/four_1_stackandqueue1/four_2_Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="247">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/two/two_1_paixu1/two_5_mergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -62,8 +136,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/two/two_1_paixu1/two_7_HeapSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+            <state relative-caret-position="228">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/two/two_1_paixu1/two_6_QuickSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -71,17 +154,35 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/two/two_12_paixu3/two_15_Merge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" selection-start-line="14" selection-end-line="28" selection-end-column="17" />
+            <state relative-caret-position="227">
+              <caret line="54" column="33" lean-forward="true" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/two/two_9_paixu2/two_10.java">
+        <entry file="file://$PROJECT_DIR$/src/two/two_1_paixu1/two_2_BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="159">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/three/three_1_string1/three_3_Transform.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="11" selection-start-line="10" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/three/three_1_string1/three_2_IdenticalTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -95,15 +196,60 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>F:\计算机\bat\src\four</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/two_12_paixu3/two_13.java" />
         <option value="$PROJECT_DIR$/src/two/two_12_paixu3/two_9_paixu2/two_10.java" />
         <option value="$PROJECT_DIR$/src/two/two_12_paixu3/two_13.java" />
-        <option value="$PROJECT_DIR$/src/two/two_12_paixu3/two_13_ScaleSort.java" />
         <option value="$PROJECT_DIR$/src/two/two_12_paixu3/two_14_Checker.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/two/two_1_paixu1/two_7_HeapSort.java" />
+        <option value="$PROJECT_DIR$/src/two/two_1_paixu1/two_2_BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/two/two_1_paixu1/tow_3_insertSort.java" />
+        <option value="$PROJECT_DIR$/src/two/two_1_paixu1/two_4_mergeSort.java" />
+        <option value="$PROJECT_DIR$/src/two/two_1_paixu1/two_5_mergeSort.java" />
+        <option value="$PROJECT_DIR$/src/two/two_1_paixu1/two_3_selectSort.java" />
+        <option value="$PROJECT_DIR$/src/two/two_1_paixu1/tow_4_insertSort.java" />
+        <option value="$PROJECT_DIR$/src/two/two_1_paixu1/two_4_insertSort.java" />
+        <option value="$PROJECT_DIR$/src/two/two_1_paixu1/two_8_shellSort.java" />
+        <option value="$PROJECT_DIR$/src/two/two_9_paixu2/two_10.java" />
+        <option value="$PROJECT_DIR$/src/two/two_9_paixu2/two_10_countingSort.java" />
+        <option value="$PROJECT_DIR$/src/two/two_9_paixu2/two_11_radixSort.java" />
+        <option value="$PROJECT_DIR$/src/two/two_12_paixu3/two_13_ScaleSort.java" />
+        <option value="$PROJECT_DIR$/src/two/two_16_paixu4/two_17_sortThreeColor.java" />
+        <option value="$PROJECT_DIR$/src/two/two_16_paixu4/two_19_Subsequence.java" />
+        <option value="$PROJECT_DIR$/src/two/two_16_paixu4/two_20_Gap.java" />
+        <option value="$PROJECT_DIR$/src/three/three_1_string1/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/three/three_1_string1/three_2_IdenticalTree.java" />
+        <option value="$PROJECT_DIR$/src/three/three_4_string2/three_5_Rotation.java" />
+        <option value="$PROJECT_DIR$/src/three/three_1_string1/three_3_Transform.java" />
+        <option value="$PROJECT_DIR$/src/three/three_4_string2/three_6_Reverse.java" />
+        <option value="$PROJECT_DIR$/src/three/three_4_string2/three_7_Translation.java" />
+        <option value="$PROJECT_DIR$/src/three/string1" />
+        <option value="$PROJECT_DIR$/src/three/three_4_string2/three_8_Prior.java" />
+        <option value="$PROJECT_DIR$/src/three/three_9_string3/three_10_Replacement.java" />
+        <option value="$PROJECT_DIR$/src/three/three_9_string3/three_12_DistinctSubstring.java" />
+        <option value="$PROJECT_DIR$/src/four/stackandqueue" />
+        <option value="$PROJECT_DIR$/src/four/four_1_stackandqueue1/four_2_Solution.java" />
+        <option value="$PROJECT_DIR$/src/four/four_3_stackandqueue2/four_4_TwoStack.java" />
+        <option value="$PROJECT_DIR$/src/four/four_3_stackandqueue2/four_5_.java" />
+        <option value="$PROJECT_DIR$/src/three/three_9_string3/three_11_Parenthesis.java" />
+        <option value="$PROJECT_DIR$/src/four/four_3_stackandqueue2/four_5_StackReverse.java" />
+        <option value="$PROJECT_DIR$/src/four/four_3_stackandqueue2/four_6_twoStacksSort.java" />
+        <option value="$PROJECT_DIR$/src/four/four_7_stackandqueue3/four_8_SlideWindow.java" />
+        <option value="$PROJECT_DIR$/src/three/StringTest.java" />
+        <option value="$PROJECT_DIR$/src/four/four_7_stackandqueue3/four_9_MaxTree.java" />
+        <option value="$PROJECT_DIR$/src/test1.java" />
+        <option value="$PROJECT_DIR$/src/two/two_1_paixu1/two_6_QuickSort.java" />
         <option value="$PROJECT_DIR$/src/two/two_12_paixu3/two_15_Merge.java" />
       </list>
     </option>
@@ -123,17 +269,26 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="45" />
-    <option name="y" value="141" />
-    <option name="width" value="1242" />
-    <option name="height" value="780" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="y" value="-7" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -165,24 +320,29 @@
               <item name="bat" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="two" type="462c0819:PsiDirectoryNode" />
+              <item name="two_9_paixu2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="two" type="462c0819:PsiDirectoryNode" />
               <item name="two_12_paixu3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557293802826" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../技术点/java高级特性/反射/Java反射源码/coreJava" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575363988299" />
+    <property name="last_opened_file_path" value="F:/实验室工作/电网2年/平台对接/demo/demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -196,6 +356,81 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Application.two_15_Merge">
+    <configuration name="four_9_MaxTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="four.four_7_stackandqueue3.four_9_MaxTree" />
+      <module name="bat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="four.four_7_stackandqueue3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="two_15_Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="two.two_12_paixu3.two_15_Merge" />
+      <module name="bat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="two.two_12_paixu3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="two_6_QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="two.two_1_paixu1.two_6_QuickSort" />
+      <module name="bat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="two.two_1_paixu1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bat" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test1.no1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bat" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test1" />
+      <option name="METHOD_NAME" value="no1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.test1.no1" />
+      <item itemvalue="Application.four_9_MaxTree" />
+      <item itemvalue="JUnit.test1" />
+      <item itemvalue="Application.two_6_QuickSort" />
+      <item itemvalue="Application.two_15_Merge" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.two_15_Merge" />
+        <item itemvalue="Application.two_6_QuickSort" />
+        <item itemvalue="JUnit.test1.no1" />
+        <item itemvalue="JUnit.test1" />
+        <item itemvalue="Application.four_9_MaxTree" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -206,44 +441,236 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557153252904</updated>
-      <workItem from="1557153259006" duration="8712000" />
+      <workItem from="1557153259006" duration="27242000" />
+      <workItem from="1557401020964" duration="8025000" />
+      <workItem from="1557809006755" duration="11660000" />
+      <workItem from="1557931230365" duration="3175000" />
+      <workItem from="1558020062625" duration="510000" />
+      <workItem from="1558070505990" duration="6016000" />
+      <workItem from="1558254279991" duration="5847000" />
+      <workItem from="1558536412532" duration="4561000" />
+      <workItem from="1558592255824" duration="10840000" />
+      <workItem from="1558647512248" duration="6267000" />
+      <workItem from="1558656282339" duration="4176000" />
+      <workItem from="1559032294026" duration="11084000" />
+      <workItem from="1559301366694" duration="7223000" />
+      <workItem from="1559552171735" duration="722000" />
+      <workItem from="1559574172194" duration="1614000" />
+      <workItem from="1560861862436" duration="18000" />
+      <workItem from="1560955093472" duration="2062000" />
+      <workItem from="1561993159842" duration="1367000" />
+      <workItem from="1562336257522" duration="14501000" />
+      <workItem from="1562420087878" duration="1298000" />
+      <workItem from="1574215259026" duration="4677000" />
+      <workItem from="1574863947744" duration="1522000" />
+      <workItem from="1575274530598" duration="483000" />
+      <workItem from="1575345225139" duration="2240000" />
     </task>
+    <task id="LOCAL-00001" summary="有序数组合并练习">
+      <created>1557294506301</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557294506301</updated>
+    </task>
+    <task id="LOCAL-00002" summary="拓扑结构相同子树">
+      <created>1558592645410</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558592645410</updated>
+    </task>
+    <task id="LOCAL-00003" summary="两串旋转">
+      <created>1558592779901</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558592779901</updated>
+    </task>
+    <task id="LOCAL-00004" summary="词语变形">
+      <created>1558592808545</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558592808545</updated>
+    </task>
+    <task id="LOCAL-00005" summary="句子逆序（包含字符串逆序）">
+      <created>1558641047153</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558641047153</updated>
+    </task>
+    <task id="LOCAL-00006" summary="TreeNode数据结构">
+      <created>1558641083057</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558641083057</updated>
+    </task>
+    <task id="LOCAL-00007" summary="String字符串笔记">
+      <created>1558641101770</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558641101770</updated>
+    </task>
+    <task id="LOCAL-00008" summary="SpringTest">
+      <created>1558641133544</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1558641133544</updated>
+    </task>
+    <task id="LOCAL-00009" summary="拼接最小字典序">
+      <created>1558649979798</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1558649979798</updated>
+    </task>
+    <task id="LOCAL-00010" summary="空格替换问题">
+      <created>1558657153359</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1558657153360</updated>
+    </task>
+    <task id="LOCAL-00011" summary="合法括号序列判断">
+      <created>1558658357131</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1558658357131</updated>
+    </task>
+    <task id="LOCAL-00012" summary="可查询最值的栈">
+      <created>1559302769848</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1559302769849</updated>
+    </task>
+    <task id="LOCAL-00013" summary="双栈队列">
+      <created>1559310661249</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1559310661249</updated>
+    </task>
+    <task id="LOCAL-00014" summary="最长无重复子串问题">
+      <created>1559311647601</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1559311647601</updated>
+    </task>
+    <task id="LOCAL-00015" summary="滑动窗口练习题">
+      <created>1562413809726</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1562413809726</updated>
+    </task>
+    <task id="LOCAL-00016" summary="数组变树问题">
+      <created>1562416705663</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1562416705663</updated>
+    </task>
+    <task id="LOCAL-00017" summary="栈的反转">
+      <created>1562416792724</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1562416792724</updated>
+    </task>
+    <task id="LOCAL-00018" summary="双栈排序">
+      <created>1562416806390</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1562416806390</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="StringTest_test3 - 2019.05.24 at 07h 04m 26s.xml">
+      <configuration name="StringTest.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringTest_test3 - 2019.05.24 at 07h 04m 47s.xml">
+      <configuration name="StringTest.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringTest_test3 - 2019.05.24 at 07h 04m 57s.xml">
+      <configuration name="StringTest.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringTest_test3 - 2019.05.24 at 07h 05m 11s.xml">
+      <configuration name="StringTest.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringTest_test1 - 2019.05.24 at 07h 18m 48s.xml">
+      <configuration name="StringTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringTest_test2 - 2019.05.24 at 07h 18m 52s.xml">
+      <configuration name="StringTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringTest_test3 - 2019.05.24 at 08h 07m 56s.xml">
+      <configuration name="StringTest.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test1_no1 - 2019.06.03 at 16h 58m 35s.xml">
+      <configuration name="test1.no1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test1_no1 - 2019.07.06 at 21h 35m 08s.xml">
+      <configuration name="test1.no1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test1_no1 - 2019.07.06 at 21h 35m 56s.xml">
+      <configuration name="test1.no1" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8712000" />
+    <option name="totallyTimeSpent" value="137130000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19772118" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20052083" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28165007" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27738264" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32892805" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32892805" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2496329" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32892805" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32716927" />
+      <window_info anchor="bottom" id="JProfiler" order="12" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3297587" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,22 +679,251 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="有序数组合并练习" />
+    <MESSAGE value="拓扑结构相同子树" />
+    <MESSAGE value="两串旋转" />
+    <MESSAGE value="词语变形" />
+    <MESSAGE value="句子逆序（包含字符串逆序）" />
+    <MESSAGE value="TreeNode数据结构" />
+    <MESSAGE value="String字符串笔记" />
+    <MESSAGE value="SpringTest" />
+    <MESSAGE value="拼接最小字典序" />
+    <MESSAGE value="空格替换问题" />
+    <MESSAGE value="合法括号序列判断" />
+    <MESSAGE value="可查询最值的栈" />
+    <MESSAGE value="双栈队列" />
+    <MESSAGE value="最长无重复子串问题" />
+    <MESSAGE value="滑动窗口练习题" />
+    <MESSAGE value="数组变树问题" />
+    <MESSAGE value="栈的反转" />
+    <MESSAGE value="双栈排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="双栈排序" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/two/two_16_paixu4/two_19_Subsequence.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/two/two_12_paixu3/two_13_ScaleSort.java">
+    <entry file="file://$PROJECT_DIR$/src/two/two_1_paixu1/two_4_insertSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        <state relative-caret-position="214">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/two/two_1_paixu1/two_8_shellSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/two/two_16_paixu4/two_17_sortThreeColor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/two/two_16_paixu4/two_19_Subsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1653">
+          <caret line="87" column="29" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/two/two_12_paixu3/two_14_Checker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="323">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/two/two_9_paixu2/two_10.java">
+    <entry file="file://$PROJECT_DIR$/src/two/two_12_paixu3/two_13_ScaleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/two/two_9_paixu2/two_10_countingSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/two/two_9_paixu2/two_11_radixSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" selection-start-line="36" selection-end-line="37" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/two/two_16_paixu4/two_20_Gap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1653">
+          <caret line="89" column="21" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/two/two_1_paixu1/two_3_selectSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/three/three_4_string2/three_6_Reverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/three/three_4_string2/three_5_Rotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/three/three_1_string1/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/three/three_4_string2/three_8_Prior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/three/three_9_string3/three_10_Replacement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/four/four_3_stackandqueue2/four_4_TwoStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/three/three_9_string3/three_12_DistinctSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/three/three_9_string3/three_11_Parenthesis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/three/three_4_string2/three_7_Translation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/three/string1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/four/four_7_stackandqueue3/four_8_SlideWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/four/four_3_stackandqueue2/four_6_twoStacksSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/four/four_7_stackandqueue3/four_9_MaxTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="74" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/four/four_3_stackandqueue2/four_5_StackReverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/three/StringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/four/stackandqueue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/two/zongjie">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/four/four_1_stackandqueue1/four_2_Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/two/two_1_paixu1/two_5_mergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -276,15 +932,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/two/two_1_paixu1/two_7_HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        <state relative-caret-position="228">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/three/three_1_string1/three_3_Transform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="11" selection-start-line="10" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/three/three_1_string1/three_2_IdenticalTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/two/two_1_paixu1/two_6_QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/two/two_1_paixu1/two_2_BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/two/two_12_paixu3/two_15_Merge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="28" selection-end-column="17" />
+        <state relative-caret-position="227">
+          <caret line="54" column="33" lean-forward="true" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
         </state>
       </provider>
     </entry>

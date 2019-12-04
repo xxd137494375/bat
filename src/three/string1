@@ -50,10 +50,11 @@
 
 
 
-
+字符串反转就是对应的字符数组反转
 ps:1.String 类
     charAt(int index)
     contains(CharSequence s)
+    public int compareTo(String anotherString)   >0代表大于 0等于  <0小于
     indexOf(int ch) 返回指定字符在此字符串中第一次出现处的索引。
     indexOf(int ch, int fromIndex)
     indexOf(String str)
