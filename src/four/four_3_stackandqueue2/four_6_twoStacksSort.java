@@ -70,5 +70,6 @@ public class four_6_twoStacksSort {
 
         System.out.println(s.toString());
         System.out.println(twoStacksSort(s).toString());
+        System.out.println(1);
     }
 }
