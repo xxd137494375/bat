@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/Test.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/two/two_12_paixu3/two_13_ScaleSort.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/two/two_12_paixu3/two_14_Checker.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/two/two_12_paixu3/two_15_Merge.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/two/two_16_paixu4/two_17_sortThreeColor.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/two/two_1_paixu1/two_2_BubbleSort.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/two/two_1_paixu1/two_3_selectSort.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/two/two_1_paixu1/two_4_insertSort.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/two/two_1_paixu1/two_5_mergeSort.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/two/two_1_paixu1/two_7_HeapSort.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/two/two_1_paixu1/two_8_shellSort.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/two/two_9_paixu2/two_11_radixSort.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
