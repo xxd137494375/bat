@@ -59,7 +59,7 @@ public class two_6_QuickSort {
         System.out.println("pivotkey"+pivotkey);
         while(low<high){
             System.out.println(0);
-            while(low<high&&A[high]>=pivotkey){
+            while(low<high&&A[high]>=pivotkey){  //加"="是为了避免有和pivotkey相同的数字
                 high--;
                 System.out.println(-1);
             }
@@ -83,7 +83,7 @@ public class two_6_QuickSort {
 
 
     public static void main(String[] args) {
-        int [] A= {1,2,3,5,2,3};
+        int [] A= {1,2,4,5,2,6};
         two_6_QuickSort t = new two_6_QuickSort();
         t.quickSort(A,6);
         for(int num : A){

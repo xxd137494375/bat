@@ -1,5 +1,6 @@
 package four.four_7_stackandqueue3;
 
+import java.sql.Time;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -20,37 +21,71 @@ public class four_8_SlideWindow {
         [4,3,5,4,3,3,6,7],8,3
         返回：[5,5,5,4,6,7]
      */
-    public static int[] slide(int[] arr, int n, int w) {
-        // write code here
-        int[] res=new int[n-w+1];
-        int index=0;
-        LinkedList<Integer> q = new LinkedList<Integer>();
-        for(int i=0;i<n;i++){
+
+    public static int[] slide(int[] arr, int n, int w){
+        // write code here[357,564,212,500,96] 5，3
+        int[] res = new int[n-w+1];
+        int index= 0;
+        LinkedList<Integer> q = new LinkedList<>();
+        for(int i =0;i<n;i++){
             if(q.isEmpty()){
-                q.add(i);
+                q.addLast(i);
             }else{
-                if(arr[i]<arr[q.getLast()]){
-                    q.add(i);
+                if(arr[i]<=arr[q.getLast()]){
+                    q.addLast(i);
                 }else{
-                    while(!q.isEmpty()&&arr[i]>=arr[q.getLast()]){
+                    while(!q.isEmpty()&&arr[i]>arr[q.getLast()]){
                         q.removeLast();
                     }
-                    q.add(i);
+                    q.addLast(i);
                 }
             }
+            //移除过期队列
             if(q.getFirst()<i-w+1){
                 q.removeFirst();
             }
+            //记录最大值
             if(i>=w-1){
-            res[index++]=arr[q.getFirst()];
+                res[index++] = arr[q.getFirst()];
             }
         }
         return res;
     }
+    //和上面一样只是做了代码优化，执行效率更高，但是可读性变差
+    public static int[] slide1(int[] arr, int n, int w){
+        // write code here[357,564,212,500,96] 5，3
+        int[] res = new int[n-w+1];
+        int index= 0;
+        LinkedList<Integer> q = new LinkedList<>();
+        for(int i =0;i<n;i++){
+            if(q.isEmpty()){
+                q.addLast(i);
+            }else{
+                //移除不可能成为最大值的无效值
+                while(!q.isEmpty()&&arr[i]>arr[q.getLast()]){
+                    q.removeLast();
+                }
 
+                q.addLast(i);
+
+            }
+            if(q.getFirst()<i-w+1){
+                q.removeFirst();
+            }
+            if(i>=w-1){//从2开始  5，
+                res[index++] = arr[q.getFirst()];
+            }
+        }
+        return res;
+    }
     public static void main(String[] args) {
         int[] arr={4,3,5,4,3,3,6,7};
+        long cur = System.nanoTime();
         System.out.println(Arrays.toString(slide(arr,8,3)));
+        System.out.println(System.nanoTime()-cur);
+        long cur1 = System.nanoTime();
+        System.out.println(Arrays.toString(slide1(arr,8,3)));
+        System.out.println(System.nanoTime() - cur1);
 
     }
 }

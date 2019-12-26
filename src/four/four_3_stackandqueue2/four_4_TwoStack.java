@@ -24,8 +24,12 @@ public class four_4_TwoStack {
         Stack<Integer> stack2 = new Stack<>();
         int popnum = 0;
         for(int i=0;i<n;i++){
-            if(ope[i]>0)stack1.push(ope[i]);
-            if(ope[i]==0)popnum++;
+            if(ope[i]>0){
+                stack1.push(ope[i]);
+            }
+            if(ope[i]==0){
+                popnum++;
+            }
         }
         while(!stack1.isEmpty()){
             stack2.push(stack1.pop());

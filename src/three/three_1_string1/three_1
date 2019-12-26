@@ -1,0 +1,76 @@
+字符串面试题的特点
+1.广泛性
+    1.1字符串可以看作字符类型的数组  与数组的排序、查找、调整有关
+    1.2很多其他类型的面试题可以看作字符串类型的面试题
+
+JAVA必备字符串知识：StringBuffer,StringBuilder类方法和toCharArray方法。
+
+2.需掌握的概念
+    2.1回文
+    2.2子串（连续）
+    2.3子序列（不连续）
+    2.4前缀树（Trie树）
+    2.5后缀树和后缀数组
+    2.6匹配
+    2.7字典序
+3.需掌握的操作
+    3.1与数组相关的操作：增删改查
+    3.2字符的替换
+    3.3字符串的旋转
+
+字符串题目常见类型
+1.规则判断
+    1.1判断字符串是否符合整数规则
+    1.2判断字符串是否符合浮点数规则
+    1.3判断字符串是否符合回文字符串规则
+    …………等等许多规则
+2.数字运算
+    int和long类型表达整数范围有限所以经常用字符串实现大整数
+
+    与大整数相关的加减乘除操作，需要模拟笔算的过程
+3.与数组的操作有关的类型
+    3.1数组有关的调整、排序等操作需掌握
+    3.2快速排序的划分过程需要掌握和改写
+4.字符计数
+    4.1哈希表
+    4.2固定长度的数组
+    4.3滑动窗口问题、寻找无重复子串问题、寻找变位词问题
+5.动态规划类型
+    5.1最长公共子串
+    5.2最长公共子序列
+    5.3最长回文子串
+    5.4最长公共子序列
+    …………等
+6.搜索类型
+    6.1宽度优先搜索
+    6.2深度优先搜索
+7.高级算法与数据结构解决的问题
+    7.1Manacher算法解决最长回文子串问题
+    7.2KMP算法解决字符串匹配问题
+    7.3前缀树结构
+    7.4后缀树和后缀数组
+    7.5通常面试中很少出现：代码实现比较复杂
+
+StringBuffer常用操作
+增  append(T c); 	insert(int offset, T b)
+删 	delete(int start, int end) ; deleteCharAt(int index)
+改 	replace(int start, int end, String str); setCharAt(int index, char ch)
+查  charAt(int index);length();substring(int start);substring(int start, int end)  ;indexOf(String str,int fromIndex);lastIndexOf(String str,int fromIndex)
+String 常用操作:注意JAVA中的String不可变,一些修改字符串的操作都是生成一个新字符串,修改原字符串要进行重新赋值. A=A.replace(char oldChar, char newChar)
+    charAt(int index)
+    contains(CharSequence s)
+    public int compareTo(String anotherString)   >0代表大于 0等于  <0小于
+    indexOf(int ch) 返回指定字符在此字符串中第一次出现处的索引。
+    indexOf(int ch, int fromIndex)
+    indexOf(String str)
+    indexOf(String str, int fromIndex)
+    startsWith(String prefix)
+    endsWith(String suffix) 测试此字符串是否以指定的后缀结束。
+    length()
+    replace(char oldChar, char newChar) 返回一个新的字符串，它是通过用 newChar 替换此字符串中出现的所有 oldChar 得到的。
+	replace(CharSequence target, CharSequence replacement) 使用指定的字面值替换序列替换此字符串所有匹配字面值目标序列的子字符串。
+	split(String regex)  根据给定正则表达式的匹配拆分此字符串。
+	substring(int beginIndex)
+	substring(int beginIndex, int endIndex)
+	toCharArray()
+	static String	valueOf(char[] data)

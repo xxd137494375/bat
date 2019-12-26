@@ -103,7 +103,8 @@ public class two_19_Subsequence {
         //              2                                          8
         int [] B={1,4,6,5,9,10};
         int [] C={1,2,10,1,8,9};
+        int [] D={1 ,3 ,4 ,7 ,6 ,8 ,9 ,3 ,2 ,0 ,10 ,12};
+        shortestSubsequence1(D,D.length);
 
-        shortestSubsequence1(A,11);
     }
 }

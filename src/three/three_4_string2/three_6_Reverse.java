@@ -16,21 +16,31 @@ public class three_6_Reverse {
         "dog loves pig",13
         返回："pig loves dog"
      */
+
+    /**
+     * 方法一
+     * @param A
+     * @param n
+     * @return
+     */
     public static String reverseSentence(String A, int n) {
         // write code here
         String[] s = A.split(" ");
-        int len = s.length;
-        String[] s1 =new String[len];
-        int index=len-1;
-        for(int i=0;i<len&&index>=0;i++){
-            s1[index--]=s[i];
+        String res = "";
+        for(int i=s.length-1;i>=0;i--){
+            res+=s[i];
+            if(i==0) return res;
+            res+=" ";
         }
-        A="";
-        for(int i=0;i<len-1;i++)A+=s1[i]+" ";
-        A+=s1[len-1];
-        return A;
+        return res;
     }
 
+    /**
+     * 方法二
+     * @param A
+     * @param n
+     * @return
+     */
     public static String reverseSentence1(String A, int n) {
         // write code here
         A=reverse(A,0,n-1);
@@ -42,10 +52,9 @@ public class three_6_Reverse {
                 A=reverse(A,start,end);
                 start=i+1;
             }
-            if(i==n-1){
-                A=reverse(A,start,n-1);
-            }
+
         }
+        A=reverse(A,start,n-1);
         return A;
     }
     public static String reverse(String str,int start,int end){
@@ -97,7 +106,7 @@ public class three_6_Reverse {
     }
 
     /**
-     * 字符数组的反转操作 不需要额外的空间
+     * 字符数组的反转操作
      * @param chas
      * @param start
      * @param end
@@ -114,14 +123,45 @@ public class three_6_Reverse {
     }
 //------------------------------------------------------------------------
 // ------------------------------------------------------------------------
-
-
+    public  String reverse5(String str,int start,int end){
+        char[] strarr = str.toCharArray();
+        int mid = (start+end)>>1;
+        for(int i =0;i<=mid-start;i++){
+            char temp = strarr[start+i];
+            strarr[start+i] = strarr[end-i];
+            strarr[end-i] = temp;
+        }
+        return new String(strarr);
+    }
+    public  String reverseSentence5(String A, int n) {
+        // write code here
+        System.out.println(A);
+        A=reverse5(A,0,n-1);
+        System.out.println(A);
+        int start =0;
+        for(int i=0;i<n&&start<n;i++){
+            if(A.charAt(i)==' '){
+                A=reverse5(A,start,i-1);
+                System.out.println("i:"+i+"-start:"+start+":"+A);
+                start=i+1;
+            }
+        }
+        System.out.println(A);
+        A = reverse5(A,start,n-1);
+        System.out.println(A);
+        return A;
+    }
 
 
     public static void main(String[] args) {
         String s = "TUM MKIALI KVJUBEN VBSEWFT JAD AIZWEL CP LG PTB";
         String s1="0123456";
 //        System.out.println(reverse(s1,1,4));
-        System.out.println(reverseSentence1(s,47));
+//        System.out.println(reverseSentence1(s,47));
+        three_6_Reverse t = new three_6_Reverse();
+//        System.out.println(t.reverse5(s,0,2));
+//        System.out.println(t.reverseSentence5(s,s.length()));
+        t.reverseSentence5(s,s.length());
+        System.out.println(t.reverse5("PTB GL PC LEWZIA DAJ TFWESBV NEBUJVK ILAIKM MUT", 4, 5));
     }
 }

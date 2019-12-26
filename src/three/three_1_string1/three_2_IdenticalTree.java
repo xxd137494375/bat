@@ -15,6 +15,7 @@ public class three_2_IdenticalTree {
     public boolean chkIdentical(TreeNode A, TreeNode B) {
         StringBuilder sb1 = new StringBuilder();
         StringBuilder sb2 = new StringBuilder();
+
         pre(A,sb1);
         pre(B,sb2);
         return sb1.toString().contains(sb2.toString());
@@ -23,12 +24,11 @@ public class three_2_IdenticalTree {
     }
     public void pre(TreeNode root,StringBuilder builder){
         if(root==null){
-//            builder.append("#!");
+            builder.append("(#)");   //对每个值加括号是为了防止  出现  12  和 2 这种情况，如果只加结束标识符  12！  2！ 在进行判断时实际返回的是true
         }else{
             //注意递归边界：如果当前结点不是null则递归左右儿子；如果不判断当前结点是否为空，则在递归到null时出现空指针异常
-            builder.append(root.val+"!");
+            builder.append("("+root.val+")");
             pre(root.left,builder);
-
             pre(root.right,builder);
         }
     }
@@ -43,7 +43,7 @@ public class three_2_IdenticalTree {
         TreeNode t6 = new TreeNode(6);
         TreeNode t7 = new TreeNode(7);
 
-        TreeNode t = new TreeNode(1);
+        TreeNode t = new TreeNode(7);
         t2.left=t4;
         t2.right=t5;
         t3.left=t6;

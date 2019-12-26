@@ -1,5 +1,5 @@
 /**
- * @Author ：xingxiangdong
+ * @Author ??xingxiangdong
  * @Date :2019/5/817:31
  */
 public class Test {
@@ -27,18 +27,18 @@ public class Test {
 //        } System.out.print("]");
     }
 
-    public static void heap(int[]A,int low,int high){//调正堆，参数位  数组、开始下标、结束下标。
+    public static void heap(int[]A,int low,int high){//???????????λ  ???顢????±??????±?
         int temp = A[low];
         for(int s=low*2;s <= high;s*=2){
             if(s<high&&A[s]<A[s+1])s++;
             if(temp>A[s])break;
             A[low]=A[s];
-            low=s;//这样做是为了减少交换的开销
+            low=s;//??????????????????????
         }
         A[low]=temp;
     }
 
-    public static void heapInsert(int[] arr, int index) {  //初始化堆 2
+    public static void heapInsert(int[] arr, int index) {  //??????? 2
         while (index != 0) {
             int parent = (index - 1) / 2;
             if (arr[parent] < arr[index]) {

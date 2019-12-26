@@ -1,6 +1,7 @@
 package three.three_1_string1;
 
 import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @Author ：xingxiangdong
@@ -27,7 +28,7 @@ public class three_3_Transform {
         char[] chas2 = str2.toCharArray();
         int[] map = new int[256];//如果字符的种类很多，可以使用哈希表代替整型数组。
         for (int i = 0; i < chas1.length; i++) {//将每个字符对应ascii码位置上+1；
-            map[chas1[i]]++;
+            map[chas1[i]]++;   //如果在需要输入int的地方  输入了字符性的话 会自动将这个字符变成ascii码中的数字
         }
         for (int i = 0; i < chas2.length; i++) {
             if (map[chas2[i]]-- == 0) {
@@ -69,13 +70,53 @@ public class three_3_Transform {
         return true;
     }
 
+    /**
+     * 通过hash可以表示所有字符（例如中文等）
+     * @param str1
+     * @param lena
+     * @param str2
+     * @param lenb
+     * @return
+     */
+    public boolean chkTransform2(String str1, int lena, String str2, int lenb) {
+        Map h1 = new HashMap();
+        for(char ch : str1.toCharArray()){
+            if(h1.containsKey(ch)){
+                int num = (int)h1.get(ch);
+                h1.put(ch,++num);
+            }else{
+                h1.put(ch,1);
+            }
+        }
+        for(char ch : str2.toCharArray()){
+            if(h1.containsKey(ch)){
+                int num =(int)h1.get(ch);
+                if(num==0)return false;
+                h1.put(ch,--num);
+            }else{
+                return false;
+            }
+        }
+        return true;
+    }
+
 
     public static void main(String[] args) {
         char A = '中';
         System.out.println(A);
         HashMap h = new HashMap();
         h.put(1,1);
-
+        Integer i =1;
+        System.out.println(i++);
         System.out.println(h.get(1));
+//        System.out.println(h.get(1));
+//        System.out.println((int)'a');
+//        int[] arr = new int[256];
+//        arr['a'] = 1;
+//        for(int i=0;i<arr.length;i++ ){
+//            if(arr[i]==1){
+//                System.out.println(i);
+//            }
+//        }
     }
 }

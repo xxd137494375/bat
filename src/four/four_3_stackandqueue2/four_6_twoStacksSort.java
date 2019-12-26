@@ -7,7 +7,7 @@ import java.util.Stack;
  * @Date :2019/6/29:56
  */
 public class four_6_twoStacksSort {
-    /*
+    /**
         双栈排序：
 
         请编写一个程序，按升序对栈进行排序（即最大元素位于栈顶），要求最多只能使用一个额外的栈存放临时数据，但不得将元素复制到别的数据结构中。
@@ -32,26 +32,43 @@ public class four_6_twoStacksSort {
                     help.push(hpop);
                     help.push(apop);
                 }else {
-                    help.push(apop);
-                    help.push(hpop);
+                    int i =0;
+                    {  //找到相应的apop相应的位置，类似于插入排序的感觉，未来可以优化一下
+                        while (apop > hpop) {
+                            A.push(hpop);
+                            i++;
+                            if (help.isEmpty() || apop <= help.peek()) {
+                                break;
+                            }
+                            hpop = help.pop();
+                        }
+                        help.push(apop);
+                    }
+                    while(i!=0){
+                        help.push(A.pop());
+                        i--;
+                    }
                 }
             }
         }
+        //把辅助栈给返回原栈
         while(!help.isEmpty()){
             A.push(help.pop());
         }
-
         return A;
     }
 
-
     public static void main(String[] args) {
         Stack<Integer> s = new Stack<>();
-        s.push(1);
-        s.push(2);
+
         s.push(3);
-        s.push(4);
+        s.push(2);
         s.push(5);
+        s.push(1);
+        s.push(4);
+
+
+        System.out.println(s.toString());
         System.out.println(twoStacksSort(s).toString());
     }
 }

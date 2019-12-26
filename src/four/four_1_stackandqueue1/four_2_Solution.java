@@ -12,7 +12,13 @@ public class four_2_Solution {
 
          定义栈的数据结构，请在该类型中实现一个能够得到栈最小元素的min函数。
      */
+    /**
+        stackdata
+     */
     Stack<Integer> stackdata = new Stack<>();
+    /**
+     stackmin
+     */
     Stack<Integer> stackmin = new Stack<>();
     public void push(int node) {
         stackdata.push(node);
@@ -25,9 +31,10 @@ public class four_2_Solution {
         }
     }
     public void pop() {
-        if(stackdata.peek()==stackmin.peek()){
+        if(stackdata.peek().equals(stackmin.peek())){
             stackmin.pop();
         }
+        //注意这个要放在上面if语句的后面。
         stackdata.pop();
     }
 
@@ -47,6 +54,7 @@ public class four_2_Solution {
         if(stackmin.isEmpty()){
             stackmin.push(node);
         }else {
+            //善用java的内置函数，可以看出熟练度
             stackmin.push(Math.min(node,stackmin.peek()));
         }
     }

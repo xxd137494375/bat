@@ -24,7 +24,7 @@ public class three_12_DistinctSubstring {
         int pre = 1;
         int index=-1;
         int max=1;
-        int cur=1;
+        int curmax=1;
         HashMap<Character,Integer> map = new HashMap<>();
         map.put(A.charAt(0),0);
         for(int i=1;i<n;i++){
@@ -34,15 +34,15 @@ public class three_12_DistinctSubstring {
                 index=-1;
                 map.put(A.charAt(i),i);
             }
-           int B = i-pre;//找到以i-1为尾部的无重复子串的第1个字符的位置。
+            int B = i-pre;//找到以i-1为尾部的无重复子串的第1个字符的位置。
             if(B>index){
-                cur=pre+1;//pre+1=i-B+1
+                curmax=pre+1;//pre+1=i-B+1
             }else if (B<=index){
-                cur=i-index;
+                curmax=i-index;
                 System.out.println("--");
             }
-            pre=cur;//
-            max=(cur>max?cur:max);
+            pre=curmax;//
+            max=(curmax>max?curmax:max);
         }
         return max;
     }
