@@ -75,6 +75,7 @@ public class five_9_Palindrome {
         return true;
     }
 
+
     public static void main(String[] args) {
         ListNode node1 = new ListNode(1);
         ListNode node2 = new ListNode(2);
