@@ -4,9 +4,9 @@ import five.ListNode;
 
 /**
  * 有环单链表相交判断问题
- * <p>
+ *
  * 如何判断两个有环单链表是否相交？相交的话返回第一个相交的节点，不想交的话返回空。如果两个链表长度分别为N和M，请做到时间复杂度O(N+M)，额外空间复杂度O(1)。
- * <p>
+ *
  * 给定两个链表的头结点head1和head2。请返回一个bool值代表它们是否相交。
  *
  * @Author ：xingxiangdong
@@ -14,7 +14,7 @@ import five.ListNode;
  */
 public class five_14_ChkIntersection {
     /**
-     * self
+     * self    首先找到两个有环链表的入环节点ringnode1,ringnode2; 若ringnode1 == ringnode2 ,则相交，若ringnode1 != ringnode2
      *
      * @param head1
      * @param head2
