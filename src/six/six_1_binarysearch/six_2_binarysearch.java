@@ -10,7 +10,7 @@ package six.six_1_binarysearch;
  * @Author ：xingxiangdong
  * @Date :2019/12/3017:30
  */
-public class sex_2_binarysearch {
+public class six_2_binarysearch {
     public int getLessIndex(int[] arr) {
         if (arr == null || arr.length == 0) {
             return -1;
