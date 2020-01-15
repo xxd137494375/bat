@@ -15,6 +15,7 @@ import java.util.LinkedList;
 public class seven_9_CheckCompletion {
     public boolean chk(TreeNode root) {
         // write code here
+
         LinkedList<TreeNode> queue = new LinkedList<>();
         TreeNode node = root;
         queue.addLast(root);
